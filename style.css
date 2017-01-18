@@ -1,0 +1,16 @@
+body {
+  background: url('https://i.ytimg.com/vi/G4tiOr_YqaI/maxresdefault.jpg') no-repeat;
+}
+
+h1 {
+  color: white;
+}
+
+.list {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  color: red;
+}
