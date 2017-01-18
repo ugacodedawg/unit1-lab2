@@ -1,5 +1,6 @@
 body {
   background: url('https://i.ytimg.com/vi/G4tiOr_YqaI/maxresdefault.jpg') no-repeat;
+  text-align: center;
 }
 
 h1 {
@@ -8,9 +9,12 @@ h1 {
 
 .list {
   color: white;
-  text-align: center;
 }
 
 ul {
   color: red;
+}
+
+.lined {
+  text-decoration: line-through;
 }

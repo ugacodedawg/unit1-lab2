@@ -4,17 +4,18 @@
 		<meta charset="utf-8">
 		<title>Hello World</title>
 		<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<h1>Hello World</h1>
 		<div class="list">
 			<p>Shopping List</p>
 		<ul><form>
-			<li><input type="checkbox">Bread</li>
-			<li><input type="checkbox">Meat</li>
-			<li><input type="checkbox">Cheese</li>
-			<li><input type="checkbox">Carrots</li>
-			<li><input type="checkbox">Juice</li>
+			<li><label id="line1"><input type="checkbox" id="cb1" onclick="lineThrough(1)">Bread</label></li>
+			<li><label id="line2"><input type="checkbox" id="cb2" onclick="lineThrough(2)">Meat</label></li>
+			<li><label id="line3"><input type="checkbox" id="cb3" onclick="lineThrough(3)">Cheese</label></li>
+			<li><label id="line4"><input type="checkbox" id="cb4" onclick="lineThrough(4)">Carrots</label></li>
+			<li><label id="line5"><input type="checkbox" id="cb5" onclick="lineThrough(5)">Juice</label></li>
 		</form></ul>
 	</div>
 	</body>
